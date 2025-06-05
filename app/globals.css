@@ -27,3 +27,9 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.menu a.active {
+  background-color: oklch(20% 0.08 209); /* Tailwind's blue-600 */
+  color: #fff !important;
+  font-weight: bold;
+}
