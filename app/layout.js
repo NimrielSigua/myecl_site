@@ -22,9 +22,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body data-theme="abyss">
         <Sidebar />
-        <main className="ml-80 min-h-screen">
-          {children}
-        </main>
+        <main className="min-h-screen">{children}</main>
       </body>
     </html>
   );

@@ -5,7 +5,7 @@ import Card from '@/components/card';
 const AdminDashboard = () => {
   return (
     <>
-    <div data-theme="abyss" className='p-6 h-screen'>
+    <div data-theme="abyss" className='ml-80 p-6 h-screen'>
       <h1 className="text-3xl font-bold mb-6">Welcome, Admin!</h1>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         <Card
