@@ -16,7 +16,7 @@ function LoginForm() {
     setErrors({}); // Clear previous errors
 
     try {
-      const res = await fetch("https://nsecl-b5bz4znoi-nimrielsiguas-projects.vercel.app/api/users/login", { // Adjust the URL as needed
+      const res = await fetch("https://nsecl.vercel.app/api/users/login", { // Adjust the URL as needed
         method: "POST",
         headers: {
           "Content-Type": "application/json",
